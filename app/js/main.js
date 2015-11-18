@@ -1,3 +1,10 @@
 console.log('This is cool!');
 
-$('.container').html('HELLO WORLD');
+var textInput = document.getElementById('my_text');
+
+document.querySelector('form.my_form').addEventListener('submit', function (e) {
+
+    e.preventDefault();
+    console.log(textInput.value);
+    this.reset();
+});

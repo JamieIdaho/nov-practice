@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  body:last-child {
+    margin-right: 0; }
+
+.container {
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative; }
+
+.circle-one {
+  height: 250px;
+  width: 250px;
+  background-color: #7D8299;
+  border-radius: 50%;
+  position: relative;
+  left: 40%; }
+
+.circle-one span {
+  color: white;
+  font-size: 1.5em;
+  top: 25%;
+  margin-left: 40%;
+  position: absolute; }
+
+.circle-two {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #AFAF80;
+  position: relative;
+  left: 40%; }
+
+.circle-two span {
+  position: absolute;
+  color: white;
+  font-size: 1.5em;
+  top: 25%;
+  margin-left: 40%; }
+
+.input-field {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.my_form {
+  margin-left: 40%; }
+
+.my_form input {
+  width: 250px;
+  outline: 0; }
